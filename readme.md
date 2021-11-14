@@ -9,11 +9,12 @@ Please cite this paper when you publish research works with useing this software
 Tachibana RO, Kanno K, Okabe S, Kobayasi KI, Okanoya K (2020) USVSEG: A robust method for segmentation of ultrasonic vocalizations in rodents. PloS one 15(2) e0228907.   https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228907
 
 # User's guide
+Made by Dr. Kota Kanno (https://cannonolab.com/en/)
 English (ver.191029)   
-https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fcqsyoaytj9lu6il%2FUSVSEG_manu_Eng191029.pdf%3Fdl%3D0&sa=D&sntz=1&usg=AFQjCNHWcjxJ3HShHo668p_BzLa9egFXTw
+https://www.dropbox.com/s/3bevvuru5pis57v/USVSEG_manu_Eng211103.pdf?dl=0
 
 Japanese (ver.181121)  
-https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fn0gt8m7midnpxjs%2FUSVSEG%25E8%25A7%25A3%25E6%259E%2590%25E3%2583%259E%25E3%2583%258B%25E3%2583%25A5%25E3%2582%25A2%25E3%2583%25AB181121.pdf%3Fdl%3D0&sa=D&sntz=1&usg=AFQjCNEe5vPTrI2ffTRBkoxo6LU4LwgI7g
+https://www.dropbox.com/s/bxzt881ddyl4irt/USVSEG%E8%A7%A3%E6%9E%90%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB211103.pdf?dl=0
 
 Website (by Dr. Kouta Kanno)  
 https://sites.google.com/view/vocalcommuj/resource
