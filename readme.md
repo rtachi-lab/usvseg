@@ -1,4 +1,5 @@
-USBSEG: GUI-based MATLAB script for robust segmentation of rodents' ultrasonic vocalizations
+# USBSEG: GUI-based MATLAB script for robust segmentation of rodents' ultrasonic vocalizations
+![usvseg_img](https://user-images.githubusercontent.com/10796232/141684790-2db5e4df-5494-431c-9616-bda06706dee6.png)
 
 # License 
 This software is released under the MIT License, see LICENSE.txt.
