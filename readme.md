@@ -1,4 +1,4 @@
-# USBSEG: GUI-based MATLAB script for robust segmentation of rodents' ultrasonic vocalizations
+# USVSEG: GUI-based MATLAB script for robust segmentation of rodents' ultrasonic vocalizations
 <img width="50%" src="https://user-images.githubusercontent.com/10796232/141684790-2db5e4df-5494-431c-9616-bda06706dee6.png">
 
 # Installation
