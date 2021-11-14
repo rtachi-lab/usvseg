@@ -10,10 +10,8 @@ Tachibana RO, Kanno K, Okabe S, Kobayasi KI, Okanoya K (2020) USVSEG: A robust m
 
 # User's guide
 Made by Dr. Kota Kanno (https://cannonolab.com/en/)  
-English (ver.191029)   
-https://www.dropbox.com/s/3bevvuru5pis57v/USVSEG_manu_Eng211103.pdf?dl=0
-Japanese (ver.181121)  
-https://www.dropbox.com/s/bxzt881ddyl4irt/USVSEG%E8%A7%A3%E6%9E%90%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB211103.pdf?dl=0
+* English (ver.191029)   https://www.dropbox.com/s/3bevvuru5pis57v/USVSEG_manu_Eng211103.pdf?dl=0
+* Japanese日本語 (ver.181121)  https://www.dropbox.com/s/bxzt881ddyl4irt/USVSEG%E8%A7%A3%E6%9E%90%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB211103.pdf?dl=0
 
 Website (by Dr. Kouta Kanno)  
 https://sites.google.com/view/vocalcommuj/resource
