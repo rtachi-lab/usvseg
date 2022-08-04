@@ -1,0 +1,100 @@
+update history
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2020/05/23 ver. 0.9 rev. 2 (usvseg09r2)
+major changes
+ - output duration is now in milliseconds but not seconds
+ - added "meanfreq" and "cvfreq" as output feature
+minor changes
+ - deleted "whitening" and "hanntaperspec" functions for comparison
+ - parallel computeing (parfor) is now working only for batch processing
+ - changed structure of global variable: gv.gui / gv.dat / gv.prm
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2019/10/26 ver. 0.8 rev. 7 (usvseg08r7)
+ - tiny changes to read files
+ - window focus problem solved
+ - add "busy signal" while removing waitbar
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/12/06 ver. 0.8 rev. 6 (usvseg08r6)
+ - debug on CSV output
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/12/06 ver. 0.8 rev. 5 (usvseg08r5)
+ - debug on onset offset calculation
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/12/05 ver. 0.8 rev. 4 (usvseg08r4)
+- debug on duration calculation
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/12/04 ver. 0.8 rev. 3 (usvseg08r3)
+- debug on spectral peak tracking
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/11/30 ver. 0.8 rev. 2 (usvseg08r2)
+- onset/offset detection alogorithm had a little change
+- syllable integaration for margin overlap (introduced from ver. 0.8) was declined now 
+- variables and aruments of internal functions were clarified 
+- key command to save PDF ... 'p'  / show help ... 'h' 
+- amplitude values in multitaper spectrogram was corrected to show power spectrum density
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/11/06 ver. 0.8 rev. 1 (usvseg08r1)
+*** caution *** FFT size was also changed to 512
+- 512 DPSS (512,3,6) with 512 fftsize!
+- liftering cutoff changed to 3 for shorter FFT size
+- onset/offset detection alogorithm was refined
+- spectral peak tracking alogorithm was greatly changed
+- all parameters are automatically saved while finishing and loaded while restarting 
+- default view range is fixed at first 2 seconds
+- "play" limits the range of sound playback within the view range, and uses "audioplayer" intead of "sound" function for playback
+- "segment" outputs CSV file which contains [time amp1 freq1 amp2 freq2 amp3 freq3]
+- draw process break down to several subroutines
+- key commands for window sliding and zooming are implemented
+    z ... zoom to selection
+    i ... zoom in (horizontal)
+    o ... zoom out (horizontal)
+    u ... zoom in (vertical)
+    j ... zoom out (vertical)
+    left  ... left slide
+    right ... right slide
+    up    ... upper slide
+    down  ... lower slide
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/06/20 ver. 0.7 rev. 0 (usvseg07r0)
+*** caution *** window length was changed in this version from 1024 to 512 (~2ms).
+- FFT size is unchaged (1024) but with zero padding
+- Incorrect liftering in flattening was corrected
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/06/01 ver. 0.6 rev. 2 (usvseg06r2)
+- For "long" and "multiple file" function, threshold value and gray color range are calculated from the first read, and kept until the end of each file.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/05/18 ver. 0.6 rev. 1 (usvseg06r1)
+- function of "process" button was broken down to "flat", "thresh", and "detect" buttons to allow user to check each processing step
+- "open" button now opens wav file only with specific duration indicated by "readsize" to avoid matlab freezing
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/05/14 ver. 0.6 rev. 0 (usvseg06r0)
+- code structure, variable names, function arguments were changed: several processes were broken donw to small subroutines (flattening, threshestimation, onoffdetection, traceextraction)
+- for "long" process, flattening level (median value for each frequency line) is fixed at the value which calculated in the first read data
+- onset/offset time point of each syllable which had two-point wider (onset-1 and offset+1) than actual range was now fixed 
+- MAT file will not be used for the trace output anymore
+- now trace output (CSV) has margin as same with JPG and WAV outputs
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/05/09 ver. 0.5 rev. 7 (usvseg05r7)
+- bag fixed on reading position in "long" process (according to comment from JM)
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/04/30 ver. 0.5 rev. 6 (usvseg05r6)
+- changed to output both CSV and MAT files for "trace" generation
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+2018/04/28 ver. 0.5 rev. 5 (usvseg05r5)
+- boundary problem during "long" process was fixed
