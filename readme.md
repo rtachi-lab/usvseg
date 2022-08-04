@@ -11,7 +11,7 @@ Made by Dr. Kouta Kanno (https://cannonolab.com/en/)
 * [Usage website](https://sites.google.com/view/vocalcommuj/resource)  (maintained by Dr. Kouta Kanno)
 
 # Output description
-### segmented WAV files
+### Segmented WAV files
 ### Image (JPG or TIF) files of segmented spectrogram
 ### CSV file
 contains onset and offset time points and an additional three acoustical features for each segmented syllable:
