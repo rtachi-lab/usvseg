@@ -10,6 +10,18 @@ Made by Dr. Kouta Kanno (https://cannonolab.com/en/)
 * [Japanese日本語 (ver.211103)](https://www.dropbox.com/s/bxzt881ddyl4irt/USVSEG%E8%A7%A3%E6%9E%90%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB211103.pdf?dl=0)
 * [Usage website](https://sites.google.com/view/vocalcommuj/resource)  (maintained by Dr. Kouta Kanno)
 
+# Output description
+## segmented WAV files
+## Image (JPG or TIF) files of segmented spectrogram
+## CSV file
+* contains onset and offset time points and an additional three acoustical features for each segmented syllable:
+** duration
+** max frequency (maxfreq)
+** max amplitude (maxamp)
+** mean frequency (meanfreq) ... 
+** cv of frequency (cvfreq)
+## Peak frequency trace
+
 # Other info
 Brief presentation for USVSEG (in Japanese) in SlideShare https://www.slideshare.net/ryosuketachibana12/usvseg  
 A part of mice USV in the dataset was obtained from Data Sharing Platform of "Individuality" project. http://www.google.com/url?q=http%3A%2F%2Fdata-share.koseisouhatsu.jp%2Fdata%2Fsearch%2Findex.action&sa=D&sntz=1&usg=AFQjCNHZLc0KZQVIKIkzWIW0EDj44OFlKw
