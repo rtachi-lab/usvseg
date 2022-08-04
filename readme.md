@@ -11,16 +11,16 @@ Made by Dr. Kouta Kanno (https://cannonolab.com/en/)
 * [Usage website](https://sites.google.com/view/vocalcommuj/resource)  (maintained by Dr. Kouta Kanno)
 
 # Output description
-## segmented WAV files
-## Image (JPG or TIF) files of segmented spectrogram
-## CSV file
-* contains onset and offset time points and an additional three acoustical features for each segmented syllable:
-** duration
-** max frequency (maxfreq)
-** max amplitude (maxamp)
-** mean frequency (meanfreq) ... 
-** cv of frequency (cvfreq)
-## Peak frequency trace
+### segmented WAV files
+### Image (JPG or TIF) files of segmented spectrogram
+### CSV file
+contains onset and offset time points and an additional three acoustical features for each segmented syllable:
+ * duration
+ * maxfreq (max frequency) ... peak frequency of the time frame that has the highest amplitude in that syllable
+ * maxamp (max amplitude) ... amplitude value of the maxfreq
+ * meanfreq (mean frequency) ... mean of peak frequencies
+ * cvfreq (cv of frequency) ... coefficient of variaction of peak frequencies
+### Peak frequency trace
 
 # Other info
 Brief presentation for USVSEG (in Japanese) in SlideShare https://www.slideshare.net/ryosuketachibana12/usvseg  
