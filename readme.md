@@ -4,6 +4,8 @@
 # Installation
 Just download the latast version of matlab file (.m), and run from matlab.
 
+*Python version of USVSEG is also available [here](https://github.com/MatsumotoJ/usvseg_python).*
+
 # User's guide
 Made by Dr. Kouta Kanno (https://cannonolab.com/en/)  
 * [English (ver.211103)](https://www.dropbox.com/s/3bevvuru5pis57v/USVSEG_manu_Eng211103.pdf?dl=0)
